@@ -23,7 +23,7 @@ REQUEST_CONFIRMATION = False
 def name_mapping(name, file_num):
     """Changes each downloaded file name accordingly"""
     # manipulate name patterns - use file_num for incremental numbering:
-    return name\
-        .replace('%20', ' ')\
-        .replace('_', ' ')\
+    return name \
+        .replace('%20', ' ') \
+        .replace('_', ' ') \
         .replace('-', ' ')
