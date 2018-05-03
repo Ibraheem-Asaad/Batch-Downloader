@@ -1,6 +1,6 @@
 """Credentials and configurations for downloader module"""
 
-REQ_AUTH = False
+REQUIRES_AUTHORIZATION = False
 LOGIN_URL = ''
 LOGIN_FORM_INDEX = 0
 USER_FIELD_NAME = ''
@@ -14,16 +14,16 @@ TARGET_URLS = {
 }
 TARGET_FOLDER = r'/home/ibrahiem/Desktop/Courses/236502/GDELT'
 
-# TODO: fix MAX_FILES limit
 MAX_FILES = 100
-EXTS = {'zip'}
+EXTENSIONS = {'zip'}
 NAME_PATTERN = '201405*'  # '*' for no restrictions
-# TODO: generalize for a more diverse filter function
-REQ_CONF = False
+REQUEST_CONFIRMATION = False
 
 
 def name_mapping(name, file_num):
     """Changes each downloaded file name accordingly"""
-    # TODO: generalize UTF-8 encoding
     # manipulate name patterns - use file_num for incremental numbering:
-    return name.replace('%20', ' ').replace('_', ' ').replace('-', ' ')
+    return name\
+        .replace('%20', ' ')\
+        .replace('_', ' ')\
+        .replace('-', ' ')
