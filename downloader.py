@@ -76,6 +76,7 @@ def main():
                         file_count = file_count + 1
                         if file_count >= MAX_FILES:
                             break
+                        print(str(file_count) + ") " + link_url)
                         file_name = name_mapping(file_name, str(file_count))
                         print('Downloading as ' + file_name + ' ...')
                         urlrequest.urlretrieve(iri_to_uri(link_url), file_name)
@@ -88,7 +89,7 @@ def main():
     elif file_count == 1:
         print('Finished downloading 1 file!')
     else:
-        print('Finished downloading ' + file_count + ' files!')
+        print('Finished downloading ' + str(file_count) + ' files!')
 
 
 if __name__ == '__main__':

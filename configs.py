@@ -10,13 +10,13 @@ PASSWORD = ''
 LOGOUT_URL = ''
 
 TARGET_URLS = {
-    r'http://data.gdeltproject.org/events/index.html'
+    r'https://www.jlpt.jp/e/samples/sample12.html'
 }
-TARGET_FOLDER = r'/home/ibrahiem/Desktop/Courses/236502/GDELT'
+TARGET_FOLDER = r'/home/ibrahiem/Desktop/JLPT'
 
 MAX_FILES = 100
-EXTENSIONS = {'zip'}
-NAME_PATTERN = '201405*'  # '*' for no restrictions
+EXTENSIONS = {'pdf', 'mp3'}
+NAME_PATTERN = '*N5*'  # '*' for no restrictions
 REQUEST_CONFIRMATION = False
 
 
