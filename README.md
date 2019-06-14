@@ -16,4 +16,5 @@ Scans and downloads all files in webpages
 
 
 Make your life easier, use an extension instead.
+
 Example for Firefox: https://addons.mozilla.org/en-US/firefox/addon/simple-mass-downloader/
