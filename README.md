@@ -13,3 +13,7 @@ Scans and downloads all files in webpages
 3) Can limit the number of files to download
 
 4) Downloaded files renaming (supports incremental numbering)
+
+
+Make your life easier, use an extension instead.
+Example for Firefox: https://addons.mozilla.org/en-US/firefox/addon/simple-mass-downloader/
